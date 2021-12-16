@@ -1,0 +1,39 @@
+.first-div{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.img-div{
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.profile {
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    max-width: 100px; /* Full width (cover the whole page) */
+    max-height: 100px; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent; /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    color: white;
+  }
+
+  .profilepic{
+      height: 200px;
+      width: 200px;
+      background-color: white;
+      border-radius: 100px;
+      background-image: url("../../assets/ProfilePic.jpeg");
+      background-size: cover;
+      position: fixed; /* Sit on top of the page content */
+      display: block; /* Hidden by default */
+      margin-left: 35%;
+      margin-right: 35%;
+      margin-top: 10%;
+  }
