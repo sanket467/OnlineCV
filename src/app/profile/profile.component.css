@@ -37,3 +37,14 @@
       margin-right: 35%;
       margin-top: 10%;
   }
+
+  .name{
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 30%;
+    margin-top: 32%;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  
